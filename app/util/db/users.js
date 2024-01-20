@@ -1,0 +1,1 @@
+export const users = [{"id":"1","age":"23","email":"badguy@gmail.com","name":"badguy","password":"example323"},{"id":"2","age":"19","email":"nonse@gmail.com","name":"Nonse","password":"1235"},{"id":"3","email":"nbase@gmail.com","password":"shsdn5","name":"Boe"},{"id":"4","email":"bunsai@mail.com","password":"bass5365","name":"Bab"}];
