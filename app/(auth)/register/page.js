@@ -18,7 +18,7 @@ export default function Register(){
         if(sessionStatus === "authenticated"){
             router.push("/users")
         }
-    },[sessionStatus])
+    },[sessionStatus, router])
 
     async function handleSubmit(e){
         e.preventDefault();

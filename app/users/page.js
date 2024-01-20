@@ -135,7 +135,7 @@ export default function Users(){
                         <h2 className="bg-black text-white py-3 px-2 w-[50%] rounded-md mx-auto mt-4 text-center font-semibold">Details From My Id</h2>
                         {Array.isArray(id) ? null 
                         : 
-                        user?.data?.map((info)=> <p className="mt-5 px-8 mx-auto py-3 
+                        user?.data?.map((info)=> <p key={info.name} className="mt-5 px-8 mx-auto py-3 
                         bg-slate-700 text-white rounded font-medium w-[40%]">My Name is {info.name}  and I am {info.age}years old, 
                         I want to start working as a
                          student as a developer you can message me through this email <strong>{info.email}</strong>.</p> )}
